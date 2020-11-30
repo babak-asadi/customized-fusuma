@@ -1,0 +1,10 @@
+case $1 in
+
+  xed)
+    xdotool key ctrl+n
+    ;;
+
+  *)
+    xdotool key ctrl+t
+    ;;
+esac

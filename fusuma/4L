@@ -1,0 +1,13 @@
+#!/bin/sh
+echo 'asdasdadasdasdadasdasd' > /home/babak/11
+
+case $1 in
+
+  4L)
+      echo '123'
+    ;;
+
+  *)
+    xdotool key ctrl+alt+Right
+    ;;
+esac

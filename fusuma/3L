@@ -1,0 +1,18 @@
+case $1 in
+
+  xed)
+    xdotool key ctrl+alt+Page_Down
+    ;;
+
+  nemo)
+    xdotool key alt+Right
+    ;;
+
+  java)
+    xdotool key alt+Right
+    ;;
+
+  *)
+    xdotool key ctrl+Page_Down
+    ;;
+esac

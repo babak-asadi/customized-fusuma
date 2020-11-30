@@ -1,0 +1,44 @@
+swipe:
+  2:
+    left:
+      command: 'fusumaCommand 2L'
+    right:
+      command: 'fusumaCommand 2R'
+  3:
+    left:
+      command: 'fusumaCommand 3L'
+    right:
+      command: 'fusumaCommand 3R'
+    up:
+      command: 'fusumaCommand 3U'
+      threshold: 1.5
+    down:
+      command: 'fusumaCommand 3D'
+      threshold: 1.5
+  4:
+    left:
+      command: 'fusumaCommand 4L'
+    right:
+      command: 'fusumaCommand 4R'
+    up:
+      command: 'fusumaCommand 4U'
+    down:
+      command: 'fusumaCommand 4D'
+pinch:
+  2:
+    in:
+      command: 'xdotool key ctrl+plus'
+      threshold: 0.1
+    out:
+      command: 'xdotool key ctrl+minus'
+      threshold: 0.1
+
+
+
+threshold:
+  swipe: 0.1
+  pinch: 0.1
+
+interval:
+  swipe: 1
+  pinch: 1

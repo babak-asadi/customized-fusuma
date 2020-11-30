@@ -1,0 +1,10 @@
+case $1 in
+
+  4R)
+    
+    ;;
+
+  *)
+    xdotool key ctrl+alt+Left
+    ;;
+esac

@@ -1,0 +1,10 @@
+case $1 in
+
+  3D)
+    
+    ;;
+
+  *)
+    xdotool key ctrl+w
+    ;;
+esac
